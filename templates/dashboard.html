@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Alnafi Service Agency</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <a href="{{ url_for('encrypt') }}">Encrypt Your Message</a><br>
+    <a href="{{ url_for('decrypt') }}">Decrypt Your Message</a><br>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
